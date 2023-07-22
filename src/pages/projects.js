@@ -21,7 +21,7 @@ function Projects() {
               <h3>Twitter Clone</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-              <button><Link to={"https://twitter-clone-gamma-three.vercel.app/home"}>Click here</Link></button>
+              <button><Link to={"https://twitter-clone-pu8j.vercel.app/"}>Click here</Link></button>
             </div>
             <div className='pro2'>
             <img src={Kanban_img} alt='KanBan'/>
@@ -40,7 +40,7 @@ function Projects() {
               <h3>Gym website</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-             <button><Link to={"https://gym-65hz.vercel.app/"} >Click here</Link></button>
+             <button><Link to={"https://gym-ceoa-3p3t0l7ub-abhaykhemnar.vercel.app/"} >Click here</Link></button>
             </div>
             <div className='pro4'>
             <img src={Portfolio_Img} alt='portfolio'/>
@@ -48,7 +48,7 @@ function Projects() {
               <h3>Portfolio</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-               <button><Link to={"https://my-new-portfolio-jmo6.vercel.app/"}>Click here</Link></button>
+               <button><Link to={"https://my-portfolio-owb9.vercel.app/"}>Click here</Link></button>
             </div>
          </div>
         </div>
