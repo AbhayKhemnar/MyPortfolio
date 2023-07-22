@@ -16,9 +16,8 @@ function Header() {
     <BrowserRouter>
     <div className='Header'>
     <Navbar expand="lg" className="bg-dark navbar-dark" sticky="top">
-      <Container>
-        <Navbar.Brand as={Link} to={"/"}>ABHAY</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Container className='container'>
+        <Navbar.Brand as={Link} to={"/"} className='Abhay'>ABHAY</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to={"/"}>Home</Nav.Link>

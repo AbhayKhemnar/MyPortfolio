@@ -1,8 +1,10 @@
 import React from 'react'
 import './home.css'
 import { TypeAnimation } from 'react-type-animation';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+  const navigate=useNavigate()
   return (
     <div className='hero-wrapper'>
         <div className='main-info'>
@@ -27,7 +29,7 @@ function Home() {
     />
            
            
-            <button className='main-btn'>Contact Me</button>
+            <button className='main-btn' onClick={()=>navigate("/contact")}>Contact Me</button>
         </div>
     </div>
   )
